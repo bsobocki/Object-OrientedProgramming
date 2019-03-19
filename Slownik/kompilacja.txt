@@ -1,4 +1,0 @@
-csc -target:library slownik.cs
-
-
-csc.exe /r:C:\Users\Leszek\Desktop\UWR\PO\Lista_3\Slownik\slownik.dll -out:slow.exe main.cs
