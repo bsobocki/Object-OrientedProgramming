@@ -1,0 +1,4 @@
+csc -target:library lista_.cs
+
+
+csc.exe /r:C:\Users\Leszek\Desktop\UWR\PO\Lista_3\Lista\lista_.dll -out:lis.exe Main.cs

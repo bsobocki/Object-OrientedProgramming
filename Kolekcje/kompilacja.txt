@@ -1,0 +1,3 @@
+cd C:\Users\Leszek\Desktop\UWR\PO\Lista_4\Kolekcje
+
+csc -out:ks.exe KolejkaStos.cs
