@@ -1,5 +1,5 @@
 class Fixnum
-
+	
 	def czynniki
 		tab= []
 		for i in 1..self
