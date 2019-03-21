@@ -40,7 +40,6 @@ public class Wyr {
 }
 
 abstract class Wyrazenie{
-
     public static Map<String,Integer> Hmap = new HashMap<String, Integer>();
     public abstract int oblicz();
     public abstract String ToString();
@@ -48,7 +47,6 @@ abstract class Wyrazenie{
 }
 
 class Dodawanie extends Wyrazenie{
-
     private Wyrazenie Lewy;
     private Wyrazenie Prawy;
 
@@ -79,7 +77,6 @@ class Dodawanie extends Wyrazenie{
 }
 
 class Odejmowanie extends Wyrazenie{
-
     private Wyrazenie Lewy;
     private Wyrazenie Prawy;
 
@@ -102,7 +99,6 @@ class Odejmowanie extends Wyrazenie{
 }
 
 class Mnozenie extends Wyrazenie{
-
     private Wyrazenie Lewy;
     private Wyrazenie Prawy;
 
@@ -126,7 +122,6 @@ class Mnozenie extends Wyrazenie{
 }
 
 class Dzielenie extends Wyrazenie{
-
     private Wyrazenie Lewy;
     private Wyrazenie Prawy;
 
@@ -165,7 +160,6 @@ class Dzielenie extends Wyrazenie{
 }
 
 class Stala extends Wyrazenie{
-
     int wartosc;
 
     Stala(int val) {
@@ -186,7 +180,6 @@ class Stala extends Wyrazenie{
 }
 
 class Zmienna extends Wyrazenie{
-
     String variable;
 
     Zmienna(String var) {
